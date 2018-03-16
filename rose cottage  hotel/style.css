@@ -1,0 +1,105 @@
+/*===========================
+=============================
+     
+     CUSTOM CSS 
+
+=============================
+===========================*/
+
+/*====CORE STYLES========*/
+
+html, body { height: 100%; background-color: #fff; }
+a { font-weight: 600; color: #E4F1FE; text-decoration: none; transition: 0.5s ease; }
+a:hover { color: #E4F1FE; text-decoration: none; }
+.relative { position: relative; }
+
+/*====TITLE STYLES========*/
+
+.h2-title { font-size: 3.25rem; }
+.h1-title { font-size: 1.5rem; }
+.sub-title-h1 { font-size: 2rem; }
+.lead, .sub-title-h1 { color: #444; }
+
+
+/*====NAVBAR STYLES========*/
+
+#navbar { position: absolute; top: 10px; width: 100%; }
+#booking { margin-top: 0px; margin-bottom: 100px; background: #d1bd40; width: 100%; }
+#img-header {  background-image: url("img/castle.png");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+
+/*
+@media (min-width: 871px){
+  #img-header { height: 80vh; width: 100%; }
+}
+@media (min-width: 0px) and (max-width: 1710px) {
+  #booking { margin-top: 100px; margin-bottom: 100px; background: #d1bd40; width: 100%; }  
+}
+@media (orientation: landscape) and (min-height: 200px) and (min-width: 0px){ 
+  #img-header { height: auto; max-width: 100%; }
+}
+@media (orientation: portrait) and (min-height: 280px) and (min-width: 0px){ 
+  #img-header { height: 60vh; width: 100%; }
+}
+*/
+#logo { font-family: 'Open Sans', sans-serif; }
+.navbar-toggler { background-color: #eaeff2; }
+
+
+/*==FORM BOOKINGS==*/
+
+.custom-select-lg { font-size: 1rem; }
+
+
+/*==FORMS==*/
+
+.form-control { border-radius: 5px; font-size: 1rem; padding: 10px; }
+textarea { height: 180px; }
+
+
+/*==BUTTONS==*/
+
+.btn-danger { width: 240px; background-color: #77b6ea; } 
+.btn-secondary, .btn-primary, .btn-secondary, .btn-success, .btn-danger { border: none; }
+.btn-primary:hover, .btn-secondary:hover, .btn-success:hover, .btn-danger:hover { background-color: #444; border: none; }
+#about-btn { font-size: 1rem; border: none; padding: 15px 20px; border-radius: 0; background: #61a2db; display: inline-block; }
+.btn-secondary { width: 100%; font-size: 1rem; padding: 12px; border-radius: 5px; }
+.btn-primary { background-color: #fff; color: #444;}
+.btn-secondary, .btn-success { background-color: #61a2db; }
+
+@media (max-width: 788px){
+  
+  .btn-secondary { font-size: 1rem; border: none; padding: 12px; border-radius: 5px; }
+
+}
+
+/*====SECTION STYLES========*/
+
+section, .gallery { padding-top: 4rem; padding-bottom: 4rem; background-color: #fdfdff; }
+section, footer { background: rgba(255, 255, 255, 0.89); }
+.section-contact { background-color: #ddd; }
+
+
+/*====CARD STYLES========*/
+
+.card-img { opacity: 0.6; }
+.card { border: none; border-radius: 5px; }
+
+/*====RESPONSIVE STYLES========*/
+
+@media ( max-width: 788px ) {
+
+  section { padding-top: 2rem; padding-bottom: 2rem; background-color: #fdfdff; }
+  .form-control { font-size: 1rem; }
+  .display-4 { font-size: 2.5rem; }
+  .lead { font-size: 1rem; }
+
+}
+
+
+/*=========END=================*/
